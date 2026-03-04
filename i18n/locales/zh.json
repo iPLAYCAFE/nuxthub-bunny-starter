@@ -1,0 +1,286 @@
+{
+    "meta": {
+        "title": "NuxtHub × bunny.net 入门模板",
+        "description": "NuxtHub 全栈生态 × bunny.net 基础设施 — 终极入门模板",
+        "ogDescription": "在 bunny.net Magic Containers 上部署 NuxtHub 全栈应用，实现最佳性能",
+        "demoTitle": "实时演示 — NuxtHub × bunny.net",
+        "demoDescription": "NuxtHub 服务端路由、身份认证和实时 WebSocket 的交互式演示",
+        "servicesTitle": "bunny.net 服务 — NuxtHub × bunny.net",
+        "servicesDescription": "10 项 bunny.net 服务驱动 NuxtHub 全栈入门模板 — CDN、存储、数据库等",
+        "ecosystemTitle": "生态系统 — NuxtHub × bunny.net",
+        "ecosystemDescription": "驱动此入门模板的 Nuxt 模块、UnJS 包和 PWA 功能",
+        "studioTitle": "工作室 — NuxtHub × bunny.net",
+        "studioDescription": "使用 Nuxt Studio 编辑内容 — 由 NuxtHub 驱动的可视化 Markdown 编辑器"
+    },
+    "nav": {
+        "home": "首页",
+        "demo": "演示",
+        "services": "服务",
+        "ecosystem": "生态",
+        "studio": "工作室"
+    },
+    "footer": {
+        "builtWith": "基于",
+        "deployedOn": "部署于",
+        "publishedUnder": "发布协议",
+        "mitLicense": "MIT 许可证"
+    },
+    "hero": {
+        "badge": "NuxtHub 全栈 × bunny.net 基础设施",
+        "description": "终极全栈入门模板 — NuxtHub 的数据库、Blob、KV 和 Cache 部署在 bunny.net Magic Containers 上，使用 Bun 运行。",
+        "getStarted": "开始使用",
+        "useTemplate": "使用此模板",
+        "nuxtModules": "Nuxt 模块",
+        "bunnyServices": "Bunny 服务",
+        "unjsPackages": "UnJS 包",
+        "integrations": "集成数量"
+    },
+    "architecture": {
+        "headline": "架构",
+        "title": "NuxtHub 如何映射到 bunny.net",
+        "description": "零配置数据层 — 每个 NuxtHub 功能通过 UnJS 驱动直接映射到 bunny.net 服务",
+        "driverAdapter": "驱动 / 适配器",
+        "database": "数据库",
+        "blobStorage": "Blob 存储",
+        "kvStorage": "KV 存储",
+        "cache": "缓存",
+        "bunnyDatabase": "Bunny Database",
+        "bunnyStorage": "Bunny Storage",
+        "redisSidecar": "Redis 边车",
+        "bunnyCdnEdge": "Bunny CDN 边缘"
+    },
+    "liveDemo": {
+        "headline": "实时演示",
+        "title": "服务端路由实战",
+        "description": "由 Nitro 驱动的 NuxtHub 服务端路由 — 从此运行实例中实时获取",
+        "health": "健康检查",
+        "cachedStats": "缓存统计",
+        "database": "数据库",
+        "kv": "KV",
+        "blob": "Blob",
+        "posts": "文章",
+        "fetching": "获取中...",
+        "ttl5min": "TTL 1分钟",
+        "kvKeyPlaceholder": "键",
+        "kvValuePlaceholder": "值",
+        "set": "保存",
+        "kvSaved": "KV 已保存",
+        "visitHint": "使用 Drizzle ORM 将页面访问记录到数据库",
+        "recordVisit": "记录访问",
+        "visitRecorded": "访问已记录",
+        "selectFile": "选择要上传的文件...",
+        "upload": "上传",
+        "fileUploaded": "文件上传成功",
+        "postTitlePlaceholder": "文章标题",
+        "postContentPlaceholder": "文章内容（可选）",
+        "createPost": "创建文章",
+        "postCreated": "文章已创建",
+        "postDeleted": "文章已删除",
+        "kvDeleted": "KV 已删除",
+        "clear": "清空",
+        "visitorsCleared": "已清空所有访客",
+        "uploadHint": "图片、文本、PDF、JSON — 最大 2 MB",
+        "fileTooLarge": "文件大小不能超过 2 MB",
+        "fileDeleted": "文件已删除",
+        "totalVisitors": "总访客数",
+        "error": "发生错误",
+        "cancel": "取消",
+        "updatePost": "更新",
+        "postUpdated": "文章已更新",
+        "editPost": "编辑",
+        "kvValueLabel": "值"
+    },
+    "studio": {
+        "heroTitle": "在生产环境中编辑 Nuxt Content 网站",
+        "heroDescription": "Nuxt Content 网站的自托管 CMS — 可视化编辑内容、管理媒体，并直接从生产站点将更改发布到 Git。",
+        "tryEditingThisPage": "尝试编辑此页面",
+        "loggedIn": "Studio 已就绪！",
+        "floatingButtonHint": "点击页面左下角的浮动编辑按钮，或按 Ctrl + . 打开 Studio 编辑器。"
+    },
+    "auth": {
+        "headline": "身份认证",
+        "title": "认证与安全",
+        "description": "基于 nuxt-auth-utils 的生产级身份认证，支持 OAuth、会话管理和 CSRF 防护",
+        "sessionStatus": "会话状态",
+        "loggedIn": "已登录",
+        "notLoggedIn": "未登录",
+        "loginGitHub": "使用 GitHub 登录",
+        "logout": "退出登录",
+        "welcomeBack": "欢迎回来，",
+        "email": "邮箱",
+        "loginAt": "登录时间",
+        "guestMessage": "使用 GitHub 登录以测试 OAuth 流程并查看您的会话数据。",
+        "protectedApi": "受保护的 API",
+        "protectedApiDesc": "尝试调用受保护端点，查看基于会话的访问控制效果。",
+        "testProtected": "测试受保护端点",
+        "responseLabel": "响应",
+        "features": "安全特性",
+        "feat_oauth": "GitHub OAuth",
+        "feat_oauth_desc": "通过 nuxt-auth-utils 的一键社交登录",
+        "feat_session": "加密会话",
+        "feat_session_desc": "安全的基于 Cookie 的会话自动加密",
+        "feat_csrf": "CSRF 防护",
+        "feat_csrf_desc": "POST/PUT/PATCH/DELETE 请求自动携带 CSRF 令牌",
+        "feat_rateLimit": "速率限制",
+        "feat_rateLimit_desc": "基于 Redis 的按 IP 速率限制（60 请求/分钟）",
+        "oauthHint": "在 .env 中设置 NUXT_OAUTH_GITHUB_CLIENT_ID 和 NUXT_OAUTH_GITHUB_CLIENT_SECRET 以启用 GitHub 登录"
+    },
+    "bunnyServices": {
+        "title": "10 项服务 — 从边缘到计算",
+        "description": "从 CDN 边缘缓存到裸金属 Magic Containers — 完整的 bunny.net 基础设施",
+        "cdn": {
+            "title": "CDN",
+            "description": "100+ 节点、永久缓存、边缘规则 — 全球延迟 < 30ms"
+        },
+        "magicContainers": {
+            "title": "Magic Containers",
+            "description": "裸金属 Docker — 超高速 CPU、NVMe 存储、AI 自动扩缩"
+        },
+        "storage": {
+            "title": "Storage",
+            "description": "地理复制的 S3 兼容对象存储，AES 加密"
+        },
+        "stream": {
+            "title": "Stream",
+            "description": "视频流 HLS/DASH、DRM、AI 字幕、4K"
+        },
+        "optimizer": {
+            "title": "Optimizer",
+            "description": "图像优化 — WebP/AVIF、智能裁剪、Bunny Fonts"
+        },
+        "edgeScripting": {
+            "title": "Edge Scripting",
+            "description": "JS/TS 在 100+ 边缘节点运行，Deno 引擎，亚毫秒冷启动"
+        },
+        "database": {
+            "title": "Database",
+            "description": "无服务器全球复制 SQLite，libSQL 协议"
+        },
+        "shield": {
+            "title": "Shield",
+            "description": "WAF、DDoS 防护 L3/4/7、机器人检测、速率限制"
+        },
+        "dns": {
+            "title": "DNS",
+            "description": "可编程 DNS，GeoDNS、DNSSEC、超低延迟"
+        },
+        "fonts": {
+            "title": "Fonts",
+            "description": "隐私友好的 Google Fonts 替代方案，符合 GDPR 规范"
+        }
+    },
+    "deploy": {
+        "headline": "部署",
+        "title": "Magic Containers",
+        "description": "基于 Bun 的 Docker 部署，运行在 bunny.net 裸金属基础设施上",
+        "dockerfile": "Dockerfile",
+        "envVars": ".env（Magic Containers）",
+        "nvmeStorage": "NVMe 存储",
+        "ultraFast": "超高速",
+        "isolation": "隔离",
+        "fullVm": "完整 VM",
+        "regions": "区域",
+        "regionsValue": "40+",
+        "scaling": "扩缩",
+        "aiAuto": "AI 自动"
+    },
+    "modules": {
+        "headline": "生态系统",
+        "title": "模块与集成",
+        "description": "驱动此入门模板的 NuxtHub 功能和 Nuxt 官方模块"
+    },
+    "unjs": {
+        "headline": "基础架构",
+        "title": "UnJS 生态系统",
+        "description": "内置 12 个 UnJS 包 — Nitro 和 Nuxt 的底层支柱",
+        "nitro": "服务引擎",
+        "h3": "HTTP 框架",
+        "db0": "SQL 连接器",
+        "unstorage": "存储 API",
+        "crossws": "WebSocket",
+        "ofetch": "Fetch API",
+        "unhead": "SEO 与 Head",
+        "ipx": "图像代理",
+        "destr": "JSON 解析",
+        "ohash": "哈希计算",
+        "consola": "日志记录",
+        "ufo": "URL 工具"
+    },
+    "pwa": {
+        "headline": "PWA",
+        "title": "PWA 就绪",
+        "description": "可安装的渐进式 Web 应用，通过 Workbox 支持离线使用",
+        "installApp": "安装应用",
+        "scanQr": "扫描二维码或使用浏览器的安装提示，将此应用添加到您的设备。",
+        "serviceWorker": "Workbox 服务工作者",
+        "offlineFirst": "离线优先缓存策略",
+        "autoUpdate": "新版本自动更新",
+        "standalone": "独立显示模式",
+        "installGuide": "安装指南",
+        "androidTitle": "Android (Chrome)",
+        "androidStep1": "点击 ⋮ (菜单) → \"安装应用\" 或 \"添加到主屏幕\"",
+        "iosTitle": "iOS (Safari)",
+        "iosStep1": "点击 分享 ↑ → \"添加到主屏幕\""
+    },
+    "cta": {
+        "title": "准备好部署了吗？",
+        "description": "克隆此入门模板，配置 bunny.net 服务，几分钟内部署您的全栈 NuxtHub 应用。",
+        "cloneGitHub": "在 GitHub 上克隆",
+        "bunnyDocs": "bunny.net"
+    },
+    "ws": {
+        "headline": "实时通信",
+        "title": "WebSocket 演示",
+        "description": "由 crossws 驱动的实时 WebSocket 连接 — 实时广播消息",
+        "connected": "已连接",
+        "disconnected": "未连接",
+        "connect": "连接",
+        "disconnect": "断开",
+        "sendMessage": "发送消息",
+        "placeholder": "输入消息...",
+        "messages": "消息",
+        "noMessages": "暂无消息。发送一条吧！",
+        "you": "你",
+        "system": "系统"
+    },
+    "stream": {
+        "headline": "视频",
+        "title": "Bunny Stream",
+        "description": "视频流平台，全球分发、自适应流媒体和强大的安全性",
+        "autoplay": "自动播放",
+        "loop": "循环",
+        "muted": "静音",
+        "preload": "预加载",
+        "speed": "倍速",
+        "noConfig": "在 .env 中设置 NUXT_PUBLIC_BUNNY_STREAM_LIBRARY_ID 和 NUXT_PUBLIC_BUNNY_STREAM_VIDEO_ID 以启用视频播放器演示。",
+        "feat_adaptive": "HLS/DASH",
+        "feat_adaptive_desc": "自适应比特率流",
+        "feat_drm": "DRM",
+        "feat_drm_desc": "MediaCage 内容保护",
+        "feat_captions": "AI 字幕",
+        "feat_captions_desc": "自动生成字幕",
+        "feat_4k": "4K 支持",
+        "feat_4k_desc": "最高 4K UHD 分辨率",
+        "feat_player": "自定义播放器",
+        "feat_player_desc": "完全自定义品牌",
+        "feat_cdn": "全球 CDN",
+        "feat_cdn_desc": "119 节点，250 Tbps+"
+    },
+    "codeSnippets": {
+        "headline": "API 示例",
+        "title": "Shield · DNS · Edge Scripting",
+        "description": "bunny.net 安全、DNS 管理和边缘计算的真实 API 代码片段 — 开箱即用",
+        "shield_label": "shield/waf — 配置",
+        "dns_label": "dns — 记录",
+        "edge_label": "edge-script.ts"
+    },
+    "error": {
+        "title": "出了点问题",
+        "description": "发生了意外错误。",
+        "notFound": "页面未找到",
+        "notFoundDesc": "您要查找的页面不存在。",
+        "forbidden": "拒绝访问",
+        "home": "回到首页",
+        "retry": "重试"
+    }
+}

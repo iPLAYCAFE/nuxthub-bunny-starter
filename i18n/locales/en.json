@@ -1,0 +1,286 @@
+{
+    "meta": {
+        "title": "NuxtHub × bunny.net Starter",
+        "description": "NuxtHub Full-Stack Ecosystem × bunny.net Infrastructure — The Ultimate Starter Template",
+        "ogDescription": "Deploy NuxtHub Full-Stack apps on bunny.net Magic Containers with maximum performance",
+        "demoTitle": "Live Demo — NuxtHub × bunny.net",
+        "demoDescription": "Interactive demo of NuxtHub server routes, authentication, and real-time WebSocket — all running live",
+        "servicesTitle": "bunny.net Services — NuxtHub × bunny.net",
+        "servicesDescription": "10 bunny.net services powering the NuxtHub full-stack starter — CDN, Storage, Database, and more",
+        "ecosystemTitle": "Ecosystem — NuxtHub × bunny.net",
+        "ecosystemDescription": "Nuxt modules, UnJS packages, and PWA capabilities powering this starter template",
+        "studioTitle": "Studio — NuxtHub × bunny.net",
+        "studioDescription": "Edit content with Nuxt Studio — visual Markdown editor powered by NuxtHub"
+    },
+    "nav": {
+        "home": "Home",
+        "demo": "Demo",
+        "services": "Services",
+        "ecosystem": "Ecosystem",
+        "studio": "Studio"
+    },
+    "footer": {
+        "builtWith": "Built with",
+        "deployedOn": "Deployed on",
+        "publishedUnder": "Published under",
+        "mitLicense": "MIT License"
+    },
+    "hero": {
+        "badge": "NuxtHub Full-Stack × bunny.net Infrastructure",
+        "description": "The ultimate full-stack starter — NuxtHub's Database, Blob, KV & Cache deployed on bunny.net Magic Containers with Bun runtime.",
+        "getStarted": "Get Started",
+        "useTemplate": "Use this template",
+        "nuxtModules": "Nuxt Modules",
+        "bunnyServices": "Bunny Services",
+        "unjsPackages": "UnJS Packages",
+        "integrations": "Integrations"
+    },
+    "architecture": {
+        "headline": "Architecture",
+        "title": "How NuxtHub maps to bunny.net",
+        "description": "Zero-config data layer — each NuxtHub feature maps directly to a bunny.net service via UnJS drivers",
+        "driverAdapter": "Driver / Adapter",
+        "database": "Database",
+        "blobStorage": "Blob Storage",
+        "kvStorage": "KV Storage",
+        "cache": "Cache",
+        "bunnyDatabase": "Bunny Database",
+        "bunnyStorage": "Bunny Storage",
+        "redisSidecar": "Redis Sidecar",
+        "bunnyCdnEdge": "Bunny CDN Edge"
+    },
+    "liveDemo": {
+        "headline": "Live Demo",
+        "title": "Server Routes in Action",
+        "description": "NuxtHub server routes powered by Nitro — fetched in real-time from this running instance",
+        "health": "Health",
+        "cachedStats": "Cached Stats",
+        "database": "Database",
+        "kv": "KV",
+        "blob": "Blob",
+        "posts": "Posts",
+        "fetching": "Fetching...",
+        "ttl5min": "TTL 1min",
+        "kvKeyPlaceholder": "Key",
+        "kvValuePlaceholder": "Value",
+        "set": "Set",
+        "kvSaved": "KV entry saved",
+        "visitHint": "Record a page visit to the database using Drizzle ORM",
+        "recordVisit": "Record Visit",
+        "visitRecorded": "Visit recorded",
+        "selectFile": "Select a file to upload...",
+        "upload": "Upload",
+        "fileUploaded": "File uploaded",
+        "postTitlePlaceholder": "Post title",
+        "postContentPlaceholder": "Post content (optional)",
+        "createPost": "Create Post",
+        "postCreated": "Post created",
+        "postDeleted": "Post deleted",
+        "kvDeleted": "KV entry deleted",
+        "clear": "Clear",
+        "visitorsCleared": "All visitors cleared",
+        "uploadHint": "Images, text, PDF, JSON — max 2 MB",
+        "fileTooLarge": "File must be under 2 MB",
+        "fileDeleted": "File deleted",
+        "totalVisitors": "Total visitors",
+        "error": "An error occurred",
+        "cancel": "Cancel",
+        "updatePost": "Update",
+        "postUpdated": "Post updated",
+        "editPost": "Edit",
+        "kvValueLabel": "Value"
+    },
+    "studio": {
+        "heroTitle": "Edit your Nuxt Content website in production",
+        "heroDescription": "Self-hosted CMS for Nuxt Content websites. Edit content visually, manage media, and publish changes directly to Git from your production site.",
+        "tryEditingThisPage": "Try editing this page",
+        "loggedIn": "Studio is ready!",
+        "floatingButtonHint": "Click the floating edit button at the bottom-left corner of this page, or press Ctrl + . to open the Studio editor."
+    },
+    "auth": {
+        "headline": "Authentication",
+        "title": "Auth & Security",
+        "description": "Production-ready authentication with OAuth, sessions, and CSRF protection powered by nuxt-auth-utils",
+        "sessionStatus": "Session Status",
+        "loggedIn": "Logged In",
+        "notLoggedIn": "Not Logged In",
+        "loginGitHub": "Login with GitHub",
+        "logout": "Logout",
+        "welcomeBack": "Welcome back,",
+        "email": "Email",
+        "loginAt": "Login At",
+        "guestMessage": "Login with GitHub to test the OAuth flow and see your session data.",
+        "protectedApi": "Protected API",
+        "protectedApiDesc": "Try calling the protected endpoint to see session-based access control in action.",
+        "testProtected": "Test Protected Endpoint",
+        "responseLabel": "Response",
+        "features": "Security Features",
+        "feat_oauth": "GitHub OAuth",
+        "feat_oauth_desc": "One-click social login via nuxt-auth-utils",
+        "feat_session": "Encrypted Sessions",
+        "feat_session_desc": "Secure cookie-based sessions with auto-encryption",
+        "feat_csrf": "CSRF Protection",
+        "feat_csrf_desc": "Automatic CSRF tokens on POST/PUT/PATCH/DELETE",
+        "feat_rateLimit": "Rate Limiting",
+        "feat_rateLimit_desc": "Redis-backed per-IP rate limiting (60 req/min)",
+        "oauthHint": "Set NUXT_OAUTH_GITHUB_CLIENT_ID and NUXT_OAUTH_GITHUB_CLIENT_SECRET in .env to enable GitHub login."
+    },
+    "bunnyServices": {
+        "title": "10 Services — Edge to Compute",
+        "description": "From CDN edge caching to bare-metal Magic Containers — the full bunny.net infrastructure",
+        "cdn": {
+            "title": "CDN",
+            "description": "100+ PoPs, Perma-Cache, Edge Rules — < 30ms global"
+        },
+        "magicContainers": {
+            "title": "Magic Containers",
+            "description": "Docker on bare-metal — ultra-fast CPUs, NVMe storage, AI autoscaling"
+        },
+        "storage": {
+            "title": "Storage",
+            "description": "Geo-replicated S3-compatible object storage with AES encryption"
+        },
+        "stream": {
+            "title": "Stream",
+            "description": "Video streaming with HLS/DASH, DRM, AI captions, 4K"
+        },
+        "optimizer": {
+            "title": "Optimizer",
+            "description": "Image optimization — WebP/AVIF, smart crop, Bunny Fonts"
+        },
+        "edgeScripting": {
+            "title": "Edge Scripting",
+            "description": "JS/TS at 100+ edge locations with Deno, sub-ms cold start"
+        },
+        "database": {
+            "title": "Database",
+            "description": "Serverless globally-replicated SQLite with libSQL protocol"
+        },
+        "shield": {
+            "title": "Shield",
+            "description": "WAF, DDoS protection L3/4/7, bot detection, rate limiting"
+        },
+        "dns": {
+            "title": "DNS",
+            "description": "Scriptable DNS with GeoDNS, DNSSEC, ultra-low latency"
+        },
+        "fonts": {
+            "title": "Fonts",
+            "description": "Privacy-friendly Google Fonts drop-in replacement, GDPR compliant"
+        }
+    },
+    "deploy": {
+        "headline": "Deploy",
+        "title": "Magic Containers",
+        "description": "Bun-powered Docker deployment on bunny.net bare-metal infrastructure",
+        "dockerfile": "Dockerfile",
+        "envVars": ".env (Magic Containers)",
+        "nvmeStorage": "NVMe Storage",
+        "ultraFast": "Ultra-fast",
+        "isolation": "Isolation",
+        "fullVm": "Full VM",
+        "regions": "Regions",
+        "regionsValue": "40+",
+        "scaling": "Scaling",
+        "aiAuto": "AI Auto"
+    },
+    "modules": {
+        "headline": "Ecosystem",
+        "title": "Modules & Integrations",
+        "description": "NuxtHub features & Nuxt Official modules powering this starter"
+    },
+    "unjs": {
+        "headline": "Foundation",
+        "title": "UnJS Ecosystem",
+        "description": "12 UnJS packages built-in — the backbone of Nitro & Nuxt",
+        "nitro": "Server engine",
+        "h3": "HTTP framework",
+        "db0": "SQL connector",
+        "unstorage": "Storage API",
+        "crossws": "WebSocket",
+        "ofetch": "Fetch API",
+        "unhead": "SEO & Head",
+        "ipx": "Image proxy",
+        "destr": "JSON parse",
+        "ohash": "Hashing",
+        "consola": "Logging",
+        "ufo": "URL utils"
+    },
+    "pwa": {
+        "headline": "PWA",
+        "title": "PWA Ready",
+        "description": "Installable Progressive Web App with offline support via Workbox",
+        "installApp": "Install App",
+        "scanQr": "Scan the QR code or use your browser's install prompt to add this app to your device.",
+        "serviceWorker": "Service Worker with Workbox",
+        "offlineFirst": "Offline-first caching strategy",
+        "autoUpdate": "Auto-update on new versions",
+        "standalone": "Standalone display mode",
+        "installGuide": "How to Install",
+        "androidTitle": "Android (Chrome)",
+        "androidStep1": "Tap ⋮ (menu) → \"Install app\" or \"Add to Home screen\"",
+        "iosTitle": "iOS (Safari)",
+        "iosStep1": "Tap Share ↑ → \"Add to Home Screen\""
+    },
+    "cta": {
+        "title": "Ready to deploy?",
+        "description": "Clone this starter, configure your bunny.net services, and deploy your full-stack NuxtHub app in minutes.",
+        "cloneGitHub": "Clone on GitHub",
+        "bunnyDocs": "bunny.net"
+    },
+    "ws": {
+        "headline": "Real-time",
+        "title": "WebSocket Demo",
+        "description": "Live WebSocket connection powered by crossws — broadcast messages in real-time",
+        "connected": "Connected",
+        "disconnected": "Disconnected",
+        "connect": "Connect",
+        "disconnect": "Disconnect",
+        "sendMessage": "Send Message",
+        "placeholder": "Type a message...",
+        "messages": "Messages",
+        "noMessages": "No messages yet. Send one!",
+        "you": "You",
+        "system": "System"
+    },
+    "stream": {
+        "headline": "Video",
+        "title": "Bunny Stream",
+        "description": "Video streaming platform with global delivery, adaptive streaming, and robust security",
+        "autoplay": "Autoplay",
+        "loop": "Loop",
+        "muted": "Muted",
+        "preload": "Preload",
+        "speed": "Speed",
+        "noConfig": "Set NUXT_PUBLIC_BUNNY_STREAM_LIBRARY_ID and NUXT_PUBLIC_BUNNY_STREAM_VIDEO_ID in .env to enable the video player demo.",
+        "feat_adaptive": "HLS/DASH",
+        "feat_adaptive_desc": "Adaptive bitrate streaming",
+        "feat_drm": "DRM",
+        "feat_drm_desc": "MediaCage content protection",
+        "feat_captions": "AI Captions",
+        "feat_captions_desc": "Auto-generated subtitles",
+        "feat_4k": "4K Support",
+        "feat_4k_desc": "Up to 4K UHD resolution",
+        "feat_player": "Custom Player",
+        "feat_player_desc": "Fully customizable branding",
+        "feat_cdn": "Global CDN",
+        "feat_cdn_desc": "119 PoPs, 250 Tbps+"
+    },
+    "codeSnippets": {
+        "headline": "API Examples",
+        "title": "Shield · DNS · Edge Scripting",
+        "description": "Real API snippets for bunny.net security, DNS management, and edge computing — ready to integrate",
+        "shield_label": "shield/waf — config",
+        "dns_label": "dns — records",
+        "edge_label": "edge-script.ts"
+    },
+    "error": {
+        "title": "Something went wrong",
+        "description": "An unexpected error occurred.",
+        "notFound": "Page Not Found",
+        "notFoundDesc": "The page you are looking for does not exist.",
+        "forbidden": "Access Denied",
+        "home": "Go Home",
+        "retry": "Try Again"
+    }
+}

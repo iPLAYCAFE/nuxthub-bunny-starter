@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Light mode: cohesive warm-neutral palette to reduce eye strain */
+html:not(.dark) {
+  --ui-bg: oklch(0.967 0.003 264.542);
+  /* slate-100 — page background */
+  --ui-bg-elevated: oklch(0.985 0.002 247.839);
+  /* slate-50  — cards, modals */
+  --ui-bg-muted: oklch(0.948 0.006 264.376);
+  /* between slate-100/200 — subtle sections */
+  --ui-bg-accented: oklch(0.929 0.013 255.508);
+  /* slate-200 — hover, active */
+  --ui-border: oklch(0.869 0.022 252.894);
+  /* slate-300 — softer borders */
+  --ui-border-muted: oklch(0.929 0.013 255.508);
+  /* slate-200 — subtle borders */
+}
+
+/* Page transition */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+/* Hide nuxt-studio "Edit this page" button globally — show only on content pages */
+nuxt-studio {
+  display: none !important;
+}
+
+body.show-studio-edit nuxt-studio {
+  display: block !important;
+}
+
+/* Prevent nuxt-studio from pushing page content via body margin on non-content pages.
+   nuxt-studio injects margin-left: 800px as inline style on <body> when the editor opens.
+   This lingers when navigating away via client-side router. */
+body:not(.show-studio-edit) {
+  margin-left: 0 !important;
+}

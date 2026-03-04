@@ -1,0 +1,286 @@
+{
+    "meta": {
+        "title": "NuxtHub × bunny.net Starter",
+        "description": "NuxtHub Full-Stack Ecosystem × bunny.net Infrastructure — เทมเพลตเริ่มต้นขั้นสุดยอด",
+        "ogDescription": "ปรับใช้แอป NuxtHub Full-Stack บน bunny.net Magic Containers เพื่อประสิทธิภาพสูงสุด",
+        "demoTitle": "สาธิตสด — NuxtHub × bunny.net",
+        "demoDescription": "สาธิตแบบโต้ตอบของ NuxtHub server routes, การยืนยันตัวตน และ WebSocket แบบเรียลไทม์",
+        "servicesTitle": "บริการ bunny.net — NuxtHub × bunny.net",
+        "servicesDescription": "10 บริการ bunny.net ที่ขับเคลื่อน NuxtHub full-stack starter — CDN, Storage, Database และอื่นๆ",
+        "ecosystemTitle": "ระบบนิเวศ — NuxtHub × bunny.net",
+        "ecosystemDescription": "Nuxt modules, UnJS packages และความสามารถ PWA ที่ขับเคลื่อนเทมเพลตนี้",
+        "studioTitle": "สตูดิโอ — NuxtHub × bunny.net",
+        "studioDescription": "แก้ไขเนื้อหาด้วย Nuxt Studio — ตัวแก้ไข Markdown แบบ Visual ขับเคลื่อนโดย NuxtHub"
+    },
+    "nav": {
+        "home": "หน้าแรก",
+        "demo": "สาธิต",
+        "services": "บริการ",
+        "ecosystem": "ระบบนิเวศ",
+        "studio": "สตูดิโอ"
+    },
+    "footer": {
+        "builtWith": "สร้างด้วย",
+        "deployedOn": "ปรับใช้บน",
+        "publishedUnder": "เผยแพร่ภายใต้",
+        "mitLicense": "สัญญาอนุญาต MIT"
+    },
+    "hero": {
+        "badge": "NuxtHub Full-Stack × bunny.net Infrastructure",
+        "description": "เทมเพลตเริ่มต้น Full-Stack ขั้นสุดยอด — Database, Blob, KV และ Cache ของ NuxtHub ปรับใช้บน bunny.net Magic Containers ด้วย Bun runtime",
+        "getStarted": "เริ่มต้นใช้งาน",
+        "useTemplate": "ใช้เทมเพลตนี้",
+        "nuxtModules": "Nuxt Modules",
+        "bunnyServices": "Bunny Services",
+        "unjsPackages": "UnJS Packages",
+        "integrations": "Integrations"
+    },
+    "architecture": {
+        "headline": "สถาปัตยกรรม",
+        "title": "NuxtHub แมปกับ bunny.net อย่างไร",
+        "description": "ชั้นข้อมูลแบบไม่ต้องตั้งค่า — ฟีเจอร์ NuxtHub ทุกตัวแมปตรงไปยังบริการ bunny.net ผ่าน UnJS drivers",
+        "driverAdapter": "ไดรเวอร์ / อะแดปเตอร์",
+        "database": "ฐานข้อมูล",
+        "blobStorage": "Blob Storage",
+        "kvStorage": "KV Storage",
+        "cache": "แคช",
+        "bunnyDatabase": "Bunny Database",
+        "bunnyStorage": "Bunny Storage",
+        "redisSidecar": "Redis Sidecar",
+        "bunnyCdnEdge": "Bunny CDN Edge"
+    },
+    "liveDemo": {
+        "headline": "สาธิตสด",
+        "title": "Server Routes ใช้งานจริง",
+        "description": "Server routes ของ NuxtHub ขับเคลื่อนโดย Nitro — ดึงข้อมูลแบบเรียลไทม์จากอินสแตนซ์ที่กำลังทำงานอยู่",
+        "health": "Health",
+        "cachedStats": "Cached Stats",
+        "database": "Database",
+        "kv": "KV",
+        "blob": "Blob",
+        "posts": "โพสต์",
+        "fetching": "กำลังโหลด...",
+        "ttl5min": "TTL 1 นาที",
+        "kvKeyPlaceholder": "คีย์",
+        "kvValuePlaceholder": "ค่า",
+        "set": "บันทึก",
+        "kvSaved": "บันทึก KV สำเร็จ",
+        "visitHint": "บันทึกการเยี่ยมชมหน้าเว็บลงฐานข้อมูลด้วย Drizzle ORM",
+        "recordVisit": "บันทึกการเยี่ยมชม",
+        "visitRecorded": "บันทึกการเยี่ยมชมสำเร็จ",
+        "selectFile": "เลือกไฟล์เพื่ออัปโหลด...",
+        "upload": "อัปโหลด",
+        "fileUploaded": "อัปโหลดไฟล์สำเร็จ",
+        "postTitlePlaceholder": "หัวข้อโพสต์",
+        "postContentPlaceholder": "เนื้อหาโพสต์ (ไม่บังคับ)",
+        "createPost": "สร้างโพสต์",
+        "postCreated": "สร้างโพสต์สำเร็จ",
+        "postDeleted": "ลบโพสต์สำเร็จ",
+        "kvDeleted": "ลบ KV สำเร็จ",
+        "clear": "ล้าง",
+        "visitorsCleared": "ล้างผู้เยี่ยมชมทั้งหมดสำเร็จ",
+        "uploadHint": "รูปภาพ, ข้อความ, PDF, JSON — สูงสุด 2 MB",
+        "fileTooLarge": "ไฟล์ต้องมีขนาดไม่เกิน 2 MB",
+        "fileDeleted": "ลบไฟล์สำเร็จ",
+        "totalVisitors": "ผู้เยี่ยมชมทั้งหมด",
+        "error": "เกิดข้อผิดพลาด",
+        "cancel": "ยกเลิก",
+        "updatePost": "อัปเดต",
+        "postUpdated": "อัปเดตโพสต์สำเร็จ",
+        "editPost": "แก้ไข",
+        "kvValueLabel": "ค่า"
+    },
+    "studio": {
+        "heroTitle": "แก้ไขเว็บไซต์ Nuxt Content ของคุณได้บน Production",
+        "heroDescription": "CMS แบบ Self-hosted สำหรับเว็บไซต์ Nuxt Content — แก้ไขเนื้อหาแบบ visual, จัดการสื่อ, และเผยแพร่เปลี่ยนแปลงไปยัง Git ได้จากเว็บไซต์ Production",
+        "tryEditingThisPage": "ลองแก้ไขหน้านี้",
+        "loggedIn": "Studio พร้อมใช้งานแล้ว!",
+        "floatingButtonHint": "คลิกปุ่มแก้ไขลอยที่มุมล่างซ้ายของหน้านี้ หรือกด Ctrl + . เพื่อเปิด Studio editor"
+    },
+    "auth": {
+        "headline": "การยืนยันตัวตน",
+        "title": "Auth & Security",
+        "description": "ระบบยืนยันตัวตนพร้อมใช้งานจริง พร้อม OAuth, Sessions และ CSRF protection โดย nuxt-auth-utils",
+        "sessionStatus": "สถานะเซสชัน",
+        "loggedIn": "เข้าสู่ระบบแล้ว",
+        "notLoggedIn": "ยังไม่ได้เข้าสู่ระบบ",
+        "loginGitHub": "เข้าสู่ระบบด้วย GitHub",
+        "logout": "ออกจากระบบ",
+        "welcomeBack": "ยินดีต้อนรับกลับ,",
+        "email": "อีเมล",
+        "loginAt": "เวลาเข้าสู่ระบบ",
+        "guestMessage": "เข้าสู่ระบบด้วย GitHub เพื่อทดสอบ OAuth flow และดูข้อมูลเซสชันของคุณ",
+        "protectedApi": "Protected API",
+        "protectedApiDesc": "ลองเรียก protected endpoint เพื่อดูการควบคุมการเข้าถึงแบบ session-based ใช้งานจริง",
+        "testProtected": "ทดสอบ Protected Endpoint",
+        "responseLabel": "การตอบกลับ",
+        "features": "ฟีเจอร์ความปลอดภัย",
+        "feat_oauth": "GitHub OAuth",
+        "feat_oauth_desc": "เข้าสู่ระบบด้วยโซเชียลคลิกเดียวผ่าน nuxt-auth-utils",
+        "feat_session": "เซสชันเข้ารหัส",
+        "feat_session_desc": "เซสชันแบบ Cookie ที่ปลอดภัยพร้อมเข้ารหัสอัตโนมัติ",
+        "feat_csrf": "ป้องกัน CSRF",
+        "feat_csrf_desc": "โทเค็น CSRF อัตโนมัติสำหรับ POST/PUT/PATCH/DELETE",
+        "feat_rateLimit": "จำกัดอัตราการเข้าถึง",
+        "feat_rateLimit_desc": "จำกัดอัตราตาม IP ด้วย Redis (60 คำขอ/นาที)",
+        "oauthHint": "ตั้งค่า NUXT_OAUTH_GITHUB_CLIENT_ID และ NUXT_OAUTH_GITHUB_CLIENT_SECRET ใน .env เพื่อเปิดใช้งาน GitHub login"
+    },
+    "bunnyServices": {
+        "title": "10 บริการ — จาก Edge สู่ Compute",
+        "description": "จาก CDN edge caching ถึง bare-metal Magic Containers — โครงสร้างพื้นฐาน bunny.net ครบวงจร",
+        "cdn": {
+            "title": "CDN",
+            "description": "100+ PoPs, Perma-Cache, Edge Rules — ทั่วโลก < 30ms"
+        },
+        "magicContainers": {
+            "title": "Magic Containers",
+            "description": "Docker บน bare-metal — CPU เร็วสุด, NVMe storage, AI autoscaling"
+        },
+        "storage": {
+            "title": "Storage",
+            "description": "Object storage แบบ S3 พร้อม geo-replication และเข้ารหัส AES"
+        },
+        "stream": {
+            "title": "Stream",
+            "description": "สตรีมมิ่งวิดีโอ HLS/DASH, DRM, AI ซับไตเติล, 4K"
+        },
+        "optimizer": {
+            "title": "Optimizer",
+            "description": "ปรับแต่งรูปภาพ — WebP/AVIF, smart crop, Bunny Fonts"
+        },
+        "edgeScripting": {
+            "title": "Edge Scripting",
+            "description": "JS/TS ที่ 100+ edge locations ด้วย Deno, cold start ต่ำกว่า 1ms"
+        },
+        "database": {
+            "title": "Database",
+            "description": "Serverless SQLite แบบ globally-replicated ด้วยโปรโตคอล libSQL"
+        },
+        "shield": {
+            "title": "Shield",
+            "description": "WAF, ป้องกัน DDoS L3/4/7, ตรวจจับบอท, จำกัดอัตรา"
+        },
+        "dns": {
+            "title": "DNS",
+            "description": "DNS แบบเขียนสคริปต์ได้ พร้อม GeoDNS, DNSSEC, ความหน่วงต่ำมาก"
+        },
+        "fonts": {
+            "title": "Fonts",
+            "description": "ฟอนต์ทดแทน Google Fonts เป็นมิตรกับความเป็นส่วนตัว รองรับ GDPR"
+        }
+    },
+    "deploy": {
+        "headline": "ปรับใช้",
+        "title": "Magic Containers",
+        "description": "การปรับใช้ Docker ด้วย Bun บนโครงสร้างพื้นฐาน bare-metal ของ bunny.net",
+        "dockerfile": "Dockerfile",
+        "envVars": ".env (Magic Containers)",
+        "nvmeStorage": "NVMe Storage",
+        "ultraFast": "เร็วมาก",
+        "isolation": "การแยกส่วน",
+        "fullVm": "VM เต็ม",
+        "regions": "ภูมิภาค",
+        "regionsValue": "40+",
+        "scaling": "การขยาย",
+        "aiAuto": "AI อัตโนมัติ"
+    },
+    "modules": {
+        "headline": "ระบบนิเวศ",
+        "title": "โมดูลและการรวม",
+        "description": "ฟีเจอร์ NuxtHub และโมดูลอย่างเป็นทางการของ Nuxt ที่ขับเคลื่อนเทมเพลตนี้"
+    },
+    "unjs": {
+        "headline": "รากฐาน",
+        "title": "ระบบนิเวศ UnJS",
+        "description": "UnJS 12 แพ็กเกจในตัว — แกนหลักของ Nitro และ Nuxt",
+        "nitro": "เซิร์ฟเวอร์เอ็นจิน",
+        "h3": "HTTP เฟรมเวิร์ก",
+        "db0": "SQL คอนเนกเตอร์",
+        "unstorage": "Storage API",
+        "crossws": "WebSocket",
+        "ofetch": "Fetch API",
+        "unhead": "SEO และ Head",
+        "ipx": "Image proxy",
+        "destr": "JSON parse",
+        "ohash": "แฮชชิ่ง",
+        "consola": "ล็อกกิ้ง",
+        "ufo": "URL utils"
+    },
+    "pwa": {
+        "headline": "PWA",
+        "title": "พร้อมใช้งาน PWA",
+        "description": "Progressive Web App ที่ติดตั้งได้ พร้อมรองรับออฟไลน์ผ่าน Workbox",
+        "installApp": "ติดตั้งแอป",
+        "scanQr": "สแกน QR code หรือใช้ปุ่มติดตั้งในเบราว์เซอร์เพื่อเพิ่มแอปนี้ลงในอุปกรณ์ของคุณ",
+        "serviceWorker": "Service Worker กับ Workbox",
+        "offlineFirst": "กลยุทธ์แคชแบบออฟไลน์ก่อน",
+        "autoUpdate": "อัปเดตอัตโนมัติเมื่อมีเวอร์ชันใหม่",
+        "standalone": "โหมดแสดงผลแบบ Standalone",
+        "installGuide": "วิธีติดตั้ง",
+        "androidTitle": "Android (Chrome)",
+        "androidStep1": "แตะ ⋮ (เมนู) → \"ติดตั้งแอป\" หรือ \"เพิ่มในหน้าจอหลัก\"",
+        "iosTitle": "iOS (Safari)",
+        "iosStep1": "แตะ แชร์ ↑ → \"เพิ่มในหน้าจอหลัก\""
+    },
+    "cta": {
+        "title": "พร้อมปรับใช้หรือยัง?",
+        "description": "โคลนเทมเพลตนี้ ตั้งค่าบริการ bunny.net ของคุณ แล้วปรับใช้แอป NuxtHub Full-Stack ได้ในไม่กี่นาที",
+        "cloneGitHub": "โคลนบน GitHub",
+        "bunnyDocs": "bunny.net"
+    },
+    "ws": {
+        "headline": "เรียลไทม์",
+        "title": "สาธิต WebSocket",
+        "description": "การเชื่อมต่อ WebSocket แบบเรียลไทม์ขับเคลื่อนโดย crossws — ส่งข้อความแบบ broadcast แบบเรียลไทม์",
+        "connected": "เชื่อมต่อแล้ว",
+        "disconnected": "ยังไม่ได้เชื่อมต่อ",
+        "connect": "เชื่อมต่อ",
+        "disconnect": "ตัดการเชื่อมต่อ",
+        "sendMessage": "ส่งข้อความ",
+        "placeholder": "พิมพ์ข้อความ...",
+        "messages": "ข้อความ",
+        "noMessages": "ยังไม่มีข้อความ ส่งข้อความสักข้อ!",
+        "you": "คุณ",
+        "system": "ระบบ"
+    },
+    "stream": {
+        "headline": "วิดีโอ",
+        "title": "Bunny Stream",
+        "description": "แพลตฟอร์มสตรีมมิ่งวิดีโอพร้อมการส่งมอบทั่วโลก, สตรีมมิ่งแบบปรับตัว และความปลอดภัยขั้นสูง",
+        "autoplay": "เล่นอัตโนมัติ",
+        "loop": "วนซ้ำ",
+        "muted": "ปิดเสียง",
+        "preload": "โหลดล่วงหน้า",
+        "speed": "ความเร็ว",
+        "noConfig": "ตั้งค่า NUXT_PUBLIC_BUNNY_STREAM_LIBRARY_ID และ NUXT_PUBLIC_BUNNY_STREAM_VIDEO_ID ใน .env เพื่อเปิดใช้งานเครื่องเล่นวิดีโอสาธิต",
+        "feat_adaptive": "HLS/DASH",
+        "feat_adaptive_desc": "สตรีมมิ่งแบบปรับ bitrate",
+        "feat_drm": "DRM",
+        "feat_drm_desc": "ป้องกันเนื้อหา MediaCage",
+        "feat_captions": "AI ซับไตเติล",
+        "feat_captions_desc": "สร้างซับไตเติลอัตโนมัติ",
+        "feat_4k": "รองรับ 4K",
+        "feat_4k_desc": "ความละเอียดสูงสุด 4K UHD",
+        "feat_player": "เครื่องเล่นกำหนดเอง",
+        "feat_player_desc": "ปรับแต่งแบรนด์ได้เต็มที่",
+        "feat_cdn": "CDN ทั่วโลก",
+        "feat_cdn_desc": "119 PoPs, 250 Tbps+"
+    },
+    "codeSnippets": {
+        "headline": "ตัวอย่าง API",
+        "title": "Shield · DNS · Edge Scripting",
+        "description": "ตัวอย่าง API จริงของ bunny.net สำหรับความปลอดภัย, จัดการ DNS, และ edge computing — พร้อมใช้งาน",
+        "shield_label": "shield/waf — config",
+        "dns_label": "dns — records",
+        "edge_label": "edge-script.ts"
+    },
+    "error": {
+        "title": "เกิดข้อผิดพลาด",
+        "description": "เกิดข้อผิดพลาดที่ไม่คาดคิด",
+        "notFound": "ไม่พบหน้า",
+        "notFoundDesc": "ไม่พบหน้าที่คุณกำลังค้นหา",
+        "forbidden": "ไม่มีสิทธิ์เข้าถึง",
+        "home": "กลับหน้าแรก",
+        "retry": "ลองอีกครั้ง"
+    }
+}

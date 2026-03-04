@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+
+# Nuxt dev/build outputs
+.nuxt
+.output
+.data
+.nitro
+.cache
+
+# Git & CI
+.git
+.github
+
+# IDE & editor files
+.cursor
+.vscode
+.fleet
+.idea
+
+# Docker (prevent recursive context)
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Tests (not needed in production image)
+test
+coverage*
+
+# AI agent configs
+.agents
+.gemini
+
+# Documentation (not needed in image)
+*.md
+
+# Env & logs
+.env
+.env.*
+*.log
+Screenshots/

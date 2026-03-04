@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1772269904034,
+      "tag": "0000_pale_luke_cage",
+      "breakpoints": true
+    }
+  ]
+}
